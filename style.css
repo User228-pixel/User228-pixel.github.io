@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+	background: linear-gradient(45deg,#009E00, #FFFF96);
+	background-repeat: no-repeat;
+}
+
+p {
+	font-size: 50px;
+	color: #000;
+}
+
+a ,h1 {
+	text-decoration: none;
+	font-size: 20px;
+	color: darkred;
+	display: block;
+	margin: 20px 0;
+}
+
+a {
+	opacity: 0.6;
+	transform: 0.3s ease-in;
+}
+
+a:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+div {
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	text-align: justify;
+}
+
+.main {
+	box-shadow: none;
+	width: 100%;
+}
+
+img {
+    max-width: 100%;
+	height: auto;
+	display: block;
+	transition: 0.3s;
+}
+#title {
+	padding: 0;
+	text-align: center;
+	line-height: normal;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+
+}
+
+a:before {
+	content: "🌍";
+    margin: 0 3px;
+}
+h2 {
+	font-family: 'Muli', sans-serif;
+}
+
+img:hover {
+	filter: contrast(150%);
+}
