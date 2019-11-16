@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	background: #eee;
+}
+
+.main {
+	background: #fff;
+	width: 95%;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3)
+	padding: auto;
+}
+
+.item {
+	max-height: 265px;
+	max-width: 490px;
+	height: calc(95vw / 2 / 16 * 9);
+	width: calc(90vw - 10px);
+	background: #CECECE;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.img-1 {
+	background-image: url('https://source.unsplash.com/1280x720/?dog');
+}
+
+.img-2 {
+	background-image: url('https://source.unsplash.com/1280x720/?cat');
+}
+
+.img-3 {
+	background-image: url('https://source.unsplash.com/1280x720/?undersea');
+}
+
+.img-4 {
+	background-image: url('https://source.unsplash.com/1280x720/?winter');
+}
+
+.img-5 {
+	background-image: url('https://source.unsplash.com/1280x720/?sea');
+}
+
+.img-6 {
+	background-image: url('https://source.unsplash.com/1280x720/?night');
+}
+
+.img-7 {
+	background-image: url('https://source.unsplash.com/1280x720/?eat');
+}
+
+.img-8 {
+	background-image: url('https://source.unsplash.com/1280x720/?elephant');
+}
+
+.img-9 {
+	background-image: url('https://source.unsplash.com/1280x720/?Chernobyl');
+}
+
+.img-10 {
+	background-image: url('https://source.unsplash.com/1280x720/?city');
+}
+
+.img-11 {
+	background-image: url('https://source.unsplash.com/1280x720/?London');
+}
+
+.img-12 {
+	background-image: url('https://source.unsplash.com/1280x720/?nature');
+}
+
+.heading {
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Calistoga', cursive;
+}
+.img-link {
+	display: block;
+	opacity: 0.65;
+	transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	margin: 5px;
+}
+
+.img-link:hover {
+	opacity: 1;
+	transform: scale(1.2) scaleY(1);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.6)
+}
+.social:hover {
+	filter: grayscale(.75);
+	opacity: 1;
+	transform: scale(1.2) scaleY(1);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.6)
+}
+.social {
+	display: block;
+	opacity: 0.65;
+	transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	margin: 5px;
+}
+
+.tacblet {
+	display: block;
+	opacity: 0.65;
+	transition: 0.4s ease, transform 0.2s ease-in, box-shadow 0.3s ease-out;
+	margin: 5px;
+}
+
+.tacblet:hover {
+	filter: saturate(300%);
+	opacity: 1;
+	transform: scale(1.2) scaleY(1);
+	z-index: 10;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.6)
+}
