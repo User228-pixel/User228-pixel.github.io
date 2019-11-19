@@ -80,6 +80,14 @@ body {
 	background-image: url('https://source.unsplash.com/1280x720/?nature');
 }
 
+.img-13 {
+	background-image: url('https://source.unsplash.com/1280x720/?Georgia');
+}
+
+.img-14 {
+	background-image: url('https://source.unsplash.com/1280x720/?Khachapuri');
+}
+
 .heading {
 	font-size: 40px;
 	text-align: center;
