@@ -47,6 +47,9 @@ html {
 	font-weight: bold;
 }
 
+.c {
+	text-algin: center;
+
 .search {
 	background-image: url(../img/loupe.png);
 	background-position: 0px center;
